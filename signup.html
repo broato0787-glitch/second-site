@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - SWESCO MACHINE BOYS</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header login-header">
+        <div class="brand">
+            <div class="brand-content">
+                <img class="brand-logo" src="images/swesco.jpg" alt="SWESCO MACHINE BOYS Logo">
+                <div class="brand-copy">
+                    <h1>SWESCO MACHINE BOYS</h1>
+                    <p>Create your account</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="login-page">
+        <section class="login-card">
+            <h2>Sign Up</h2>
+            <p>Register now to join the club experience and access member pages.</p>
+            <form id="signupForm" action="#" method="POST">
+                <div class="login-field">
+                    <label for="signupName">Full Name</label>
+                    <input id="signupName" name="name" type="text" placeholder="Your name" required>
+                </div>
+                <div class="login-field">
+                    <label for="signupEmail">Email Address</label>
+                    <input id="signupEmail" name="email" type="email" placeholder="you@example.com" required>
+                </div>
+                <div class="login-field">
+                    <label for="signupPassword">Password</label>
+                    <input id="signupPassword" name="password" type="password" placeholder="Password" required>
+                </div>
+                <div class="login-field">
+                    <label for="signupConfirm">Confirm Password</label>
+                    <input id="signupConfirm" name="confirmPassword" type="password" placeholder="Confirm password" required>
+                </div>
+                <button class="button" type="submit">Create Account</button>
+            </form>
+            <div class="login-footer">
+                <p>Already have an account? <a href="login.html">Login</a></p>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
